@@ -1,8 +1,37 @@
 h1{
   font-family: 'Combo', cursive;
   text-align: center;
+  margin: auto;
 }
 
-table, tr, td, th{
-  text-align: center;
+.table1{
+  margin: auto;
+  border-spacing: 20px;
+  width: 70%;
+}
+
+td{
+  width: 300px;
+  height: 500px;
+
+}
+
+#col1{
+  background-color: #EF476F;
+}
+
+#col2{
+  background-color: #FFD166;
+}
+
+#col3{
+  background-color: #06D6A0;
+}
+
+#col4{
+  background-color: #118AB2;
+}
+
+#col5{
+  background-color: #073B4C;
 }
