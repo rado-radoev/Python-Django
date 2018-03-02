@@ -1,0 +1,36 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  color: #FDFFFC;
+  text-align: center;
+  background-color: #011627;
+  border: 60px solid #2EC4B6;
+  border-top: 0px;
+  margin: 0px;
+}
+
+#submitbtn{
+  font-family: 'Raleway';
+  background-color: orange;
+  padding: 20px 10px 20px 10px;
+  height: 80px;
+  weight: 150px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 25px;
+  border: 1px solid white;
+  margin-bottom: 4px;
+}
+
+#dummy{
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+h2 {
+  margin-bottom: 5%;
+}
