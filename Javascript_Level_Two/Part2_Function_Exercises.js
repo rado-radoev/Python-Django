@@ -152,5 +152,5 @@ function speeding(speed, over) {
 // makeBricks(3, 2, 10) → true
 
 function makeBricks(small, big, goal){
-  return small + (big * 5) >= goal;
+  return goal % 5 >=0 && goal % 5 - small <= 0 && small + 5 * big >= goal;
 }
