@@ -24,7 +24,7 @@
 // sleepIn(false, true) → true
 
 function sleepIn(weekday, vacation) {
-    return !weekday && vacation;
+    return !weekday || vacation;
 }
 
 
@@ -42,12 +42,7 @@ function sleepIn(weekday, vacation) {
 // monkeyTrouble(true, false) → false
 
 function monkeyTrouble(aSmile, bSmile) {
-    if ((aSmile && bSmile) || (!aSmile && !bSmile)) {
-      return true;
-    }
-    else {
-      return false;
-    }
+    return ((aSmile && bSmile) || (!aSmile && !bSmile)) {
 }
 
 
@@ -110,6 +105,19 @@ function luckySum(a, b, c){
 // caught_speeding(60, false) → 0
 // caught_speeding(65, false) → 1
 // caught_speeding(65, true) → 0
+
+function caught_speeding(speed, is_birthday){
+  if (is_birthday)
+    speed -= 5;
+
+    if (speed <= 60)
+      return 0;
+    else if ((speed >= 60) && (speed <= 80))
+      return 1;
+    else
+      return 2;
+
+}
 
 function caught_speeding(speed, is_birthday){
   var over = 0;
