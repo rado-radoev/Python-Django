@@ -1,0 +1,14 @@
+
+td {
+  height: 160px;
+  width: 150px;
+  text-align: center;
+  font-family: 'McLaren', cursive;
+  font-size: 100px;
+  color: rgb(26, 140, 255);
+  border: 5px solid black;
+}
+
+#grad {
+  background: linear-gradient(to right, rgba(204, 238, 255,0.3), rgba(204, 238, 255,1));
+}
