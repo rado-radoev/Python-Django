@@ -42,6 +42,9 @@ def arrayCheck(nums):
 # stringBits('Heeololeo') → 'Hello'
 
 def stringBits(str):
+    return str[::2]
+
+def stringBits(str):
     result = ""
     for i in range(len(str)):
         if i % 2 == 0:
