@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fourth Project</title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+  </head>
+  <body>
+    <h1>This is a code I've put on my own</h1>
+
+    <p>
+      <div id="django_text">
+        {{ text_import }}
+      </div>
+    </p>
+    <img src="{% static "images/djangoguitar.jpg"%}" alt="Uh Oh, something
+      went wrong! The file could not be loaded!">
+  </body>
+</html>
