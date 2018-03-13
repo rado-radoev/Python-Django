@@ -9,7 +9,7 @@ def index(request):
 
 def help(request):
     help_dict= {
-        'insert_error': "Uh, oh, something went wrong!",
+        'insert_error': "Uh, oh, something went horribly wrong!",
         'insert_help': "Was this page helfpul?"
     }
 
