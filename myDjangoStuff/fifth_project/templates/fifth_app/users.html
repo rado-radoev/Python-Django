@@ -13,9 +13,24 @@
       <h1> {{ users_heading }} </h1>
     </div>
 
-    <ol>
-      <li></li>
-    </ol>
+    <div class="userlist">
+      {% if user_info %}
+      <ol>
+        {% for u in user_info %}
+        <li> {{ class_name }}
+          <ul>
+            <li> First Name: {{ u.firstName}} </li>
+            <li> Last Name: {{ u.lastName}} </li>
+            <li> Email: {{ u.email}} </li>
+          </ul>
+        </li>
+        {% endfor %}
+      </ol>
+      {% else %}
+      <p> NO USERS INFO FOUND</p>
+      {% endif %}
+    </div>
+
 
   </body>
 </html>
