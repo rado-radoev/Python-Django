@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bootstrap4',
-    'account',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -124,3 +124,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIR = [
     os.path.join(BASE_DIR, 'static')
 ]
+
+LOGIN_REDIRECT_URL = 'test'
+LOGOUT_REDIRECT_URL = 'thanks'
