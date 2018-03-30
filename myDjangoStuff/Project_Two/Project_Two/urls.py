@@ -1,3 +1,5 @@
+from django.conf import settings
+
 """Project_Two URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -14,7 +16,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, re_path
 from second_app import views
 from django.conf.urls import include
 
@@ -23,3 +25,9 @@ urlpatterns = [
     path(r'help/', include('second_app.urls')),
     path('admin/', admin.site.urls),
 ]
+
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns = [
+        re_path(r'^__debug__/', include(debug_toolbar.urls))
+    ] + urlpatterns
