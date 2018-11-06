@@ -1,0 +1,19 @@
+==> 2018-11-05 23:57:35 <==
+# cmd: /Users/superlamer/anaconda3/bin/conda create -p /Users/superlamer/GitHub/Python-Django/Clean Python/test -y python=3.6
+# conda version: 4.5.11
++conda-forge::bzip2-1.0.6-1
++conda-forge::ca-certificates-2018.10.15-ha4d7672_0
++conda-forge::certifi-2018.10.15-py36_1000
++conda-forge::libffi-3.2.1-hfc679d8_5
++conda-forge::ncurses-6.1-hfc679d8_1
++conda-forge::openssl-1.0.2p-h470a237_1
++conda-forge::pip-18.1-py36_1000
++conda-forge::python-3.6.6-h5001a0f_0
++conda-forge::readline-7.0-haf1bffa_1
++conda-forge::setuptools-40.5.0-py36_0
++conda-forge::sqlite-3.25.2-hb1c47c0_0
++conda-forge::tk-8.6.8-ha92aebf_0
++conda-forge::wheel-0.32.2-py36_0
++conda-forge::xz-5.2.4-h470a237_1
++conda-forge::zlib-1.2.11-h470a237_3
+# update specs: ['python=3.6']
