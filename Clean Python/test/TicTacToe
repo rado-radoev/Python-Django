@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 11 23:33:32 2018
+
+@author: superlamer
+"""
+
+"""
+This is a tic tac toe game 
+Two players can play on the same computer
+"""
+
+
+first_player = "X"
+second_player = "O"
+game_over = False
+position = {'row1col1':'', 'row1col2':'', 'row1col3':'', 'row2col1':'', 'row2col2':'', 'row2col3':'', 'row3col1':'', 'row3col2':'', 'row3col3':''}
+
+
+def print_board(position):
+    print("{0:s}".format(31 *"-"))
+    print("{separator}{row1col1:>5}{separator:>5}{row1col2:>5s}{separator:>5}{row1col2:>5s}{separator:>5}".format(
+            separator="|",
+            row1col1=position['row1col1'],
+            row1col2=position['row1col2'],
+            row1col3=position['row1col3']))
+    print("{0:s}".format(31 *"-"))
+    print("{separator}{row2col1:>5}{separator:>5}{row2col2:>5s}{separator:>5}{row2col2:>5s}{separator:>5}".format(
+            separator="|",
+            row2col1=position['row2col1'],
+            row2col2=position['row2col2'],
+            row2col3=position['row3col3']))
+    print("{0:s}".format(31 *"-"))
+    print("{separator}{row3col1:>5}{separator:>5}{row3col2:>5s}{separator:>5}{row3col2:>5s}{separator:>5}".format(
+            separator="|",
+            row3col1=position['row3col1'],
+            row3col2=position['row3col2'],
+            row3col3=position['row3col3']))
+    print("{0:s}".format(31 *"-"))
+    
+    
+def check_score(position):
+    if positio
+    
+    
+
+def game_on():
+    while not game_over:
+        
+        
