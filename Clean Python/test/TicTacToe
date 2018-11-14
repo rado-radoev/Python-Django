@@ -83,11 +83,7 @@ def congratulate_winner(player):
     
 
 def check_full_board(position):
-    for value in position.values():
-        if value == "":
-            return False
-        
-    return True
+    return " " in position.values()
     
 
 def choose_player_marker():
