@@ -11,28 +11,21 @@ This is a tic tac toe game
 Two players can play on the same computer
 """
 
-
-first_player = "X"
-second_player = "O"
-game_over = False
-position = {'row1col1':'', 'row1col2':'', 'row1col3':'', 'row2col1':'', 'row2col2':'', 'row2col3':'', 'row3col1':'', 'row3col2':'', 'row3col3':''}
-
-
 def print_board(position):
     print("{0:s}".format(31 *"-"))
-    print("{separator}{row1col1:>5}{separator:>5}{row1col2:>5s}{separator:>5}{row1col2:>5s}{separator:>5}".format(
+    print("{separator}{row1col1:>5}{separator:>5}{row1col2:>5s}{separator:>5}{row1col3:>5s}{separator:>5}".format(
             separator="|",
             row1col1=position['row1col1'],
             row1col2=position['row1col2'],
             row1col3=position['row1col3']))
     print("{0:s}".format(31 *"-"))
-    print("{separator}{row2col1:>5}{separator:>5}{row2col2:>5s}{separator:>5}{row2col2:>5s}{separator:>5}".format(
+    print("{separator}{row2col1:>5}{separator:>5}{row2col2:>5s}{separator:>5}{row2col3:>5s}{separator:>5}".format(
             separator="|",
             row2col1=position['row2col1'],
             row2col2=position['row2col2'],
-            row2col3=position['row3col3']))
+            row2col3=position['row2col3']))
     print("{0:s}".format(31 *"-"))
-    print("{separator}{row3col1:>5}{separator:>5}{row3col2:>5s}{separator:>5}{row3col2:>5s}{separator:>5}".format(
+    print("{separator}{row3col1:>5}{separator:>5}{row3col2:>5s}{separator:>5}{row3col3:>5s}{separator:>5}".format(
             separator="|",
             row3col1=position['row3col1'],
             row3col2=position['row3col2'],
@@ -41,11 +34,69 @@ def print_board(position):
     
     
 def check_score(position):
-    if positio
+    if position['row1col1'] != "" and position['row1col1'] == position['row1col2'] == position['row1col3']: 
+        return (True, position['row1col1'].upper())
+    elif position['row2col1'] != "" and position['row2col1'] == position['row2col2'] == position['row2col3']: 
+        return (True, position['row2col1'].upper())
+    elif position['row3col1'] != "" and position['row3col1'] == position['row3col2'] == position['row3col3']: 
+        return (True, position['row3col1'].upper()) 
+    elif position['row1col1'] != "" and position['row1col1'] == position['row2col2'] == position['row3col3']: 
+        return (True, position['row1col1'].upper())
+    elif position['row3col1'] != "" and position['row3col1'] == position['row2col2'] == position['row1col3']: 
+        return (True, position['row3col1'].upper())
     
+    return (False, "")
+
+
+def player_move(player, position):
+    x = y = -1
     
+    new_position = position
+    
+    while (x and y <= 0) or (x and y > 3):
+        print("Enter column and row numbers separated by space.\nRow: Col:")
+        x, y = map(int, input().split())
+    
+        update_cell = f"row{x}col{y}"
+        
+        if position[update_cell] != "":
+            print(f"Cell at row: {x} col: {y} is already taken by: {position[update_cell]}")
+            x = y = -1
+        
+    update_cell = f"row{x}col{y}"
+    new_position[update_cell] = player
+        
+    return new_position
+       
+def congratulate_winner(player):
+    print(f"Congratulations! Player {player} won!")
 
 def game_on():
+    first_player = "X"
+    second_player = "O"
+    position = {'row1col1':'', 'row1col2':'', 'row1col3':'', 'row2col1':'', 'row2col2':'', 'row2col3':'', 'row3col1':'', 'row3col2':'', 'row3col3':''}
+    game_over = False
+    current_player = first_player
+    print_board(position)
+    
     while not game_over:
         
+        print(f"Player \"{current_player.upper()}\" turn" )
+        new_position = player_move(current_player, position)
+        print_board(new_position)
+        is_winner = check_score(new_position)
         
+        if is_winner[0]:
+            congratulate_winner(is_winner[-1])
+            game_over = True
+        else:
+            if current_player == first_player:
+                current_player = second_player
+            else:
+                current_player = first_player
+                
+        position = new_position
+        new_position = None
+        
+        
+game_on()
