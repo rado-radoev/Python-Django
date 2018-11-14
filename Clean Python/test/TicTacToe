@@ -14,6 +14,7 @@ Two players can play on the same computer
 from  IPython.display import clear_output
 import random
 import os
+import sys
 
 def cls():
     return lambda: os.system('clear')
@@ -145,9 +146,8 @@ def game_on():
         position = new_position
         new_position = None
         
-    # TO DO: FIX THE CODE BELOW
     another_game = ""
-    while another_game != "y" or another_game != "n":
+    while another_game != "y" and another_game != "n":
         another_game = (input("Play another game \"(Y)es\" or \"(N)o\"?"))[0].lower()
         
     if another_game == 'y':
