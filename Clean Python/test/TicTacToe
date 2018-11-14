@@ -11,7 +11,16 @@ This is a tic tac toe game
 Two players can play on the same computer
 """
 
+from  IPython.display import clear_output
+import random
+import os
+
+def cls():
+    return lambda: os.system('clear')
+
 def print_board(position):
+    clear_output()
+    cls()
     print("{0:s}".format(31 *"-"))
     print("{separator}{row1col1:>5}{separator:>5}{row1col2:>5s}{separator:>5}{row1col3:>5s}{separator:>5}".format(
             separator="|",
@@ -70,13 +79,46 @@ def player_move(player, position):
        
 def congratulate_winner(player):
     print(f"Congratulations! Player {player} won!")
+    
+
+def check_full_board(position):
+    for value in position.values():
+        if value == "":
+            return False
+        
+    return True
+    
+
+def choose_player_marker():
+    markers = ("X", "O")
+    first_player_marker = ""
+    second_player_marker = ""
+    
+    while first_player_marker not in markers:
+        first_player_marker = (input(f"Player 1, choose your markers \"{markers[0]}\" or \"{markers[-1]}\":")).upper()
+    
+    
+    if (first_player_marker == markers[0]):
+        second_player_marker = markers[-1]
+    else:
+        second_player_marker = markers[0]
+    
+    print(f"Player 1 will be: {first_player_marker}. Player 2 will be: {second_player_marker}")
+    return (first_player_marker, second_player_marker)
+
+
+def choose_who_goes_first():  
+    return random.randint(0,2)
+
+def restart_game():
+    game_on()
+    
 
 def game_on():
-    first_player = "X"
-    second_player = "O"
+    first_player, second_player = choose_player_marker()
     position = {'row1col1':'', 'row1col2':'', 'row1col3':'', 'row2col1':'', 'row2col2':'', 'row2col3':'', 'row3col1':'', 'row3col2':'', 'row3col3':''}
     game_over = False
-    current_player = first_player
+    current_player = (first_player if choose_who_goes_first() == 0 else second_player)
     print_board(position)
     
     while not game_over:
@@ -95,8 +137,23 @@ def game_on():
             else:
                 current_player = first_player
                 
+            if check_full_board(new_position):
+                print("Board is full. It is a draw!")
+                game_over = True
+                
+         
         position = new_position
         new_position = None
         
+    # TO DO: FIX THE CODE BELOW
+    another_game = ""
+    while another_game != "y" or another_game != "n":
+        another_game = (input("Play another game \"(Y)es\" or \"(N)o\"?"))[0].lower()
+        
+    if another_game == 'y':
+        restart_game()
+    else:
+        print("Goodbye!")
+        sys.exit(0)
         
 game_on()
