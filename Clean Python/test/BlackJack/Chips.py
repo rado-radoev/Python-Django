@@ -9,3 +9,6 @@ class Chips:
 
     def loose_bet(self):
         self.total -= self.bet
+
+    def available_chips(self):
+        return self.total
