@@ -10,6 +10,8 @@ class Hand:
     def add_card(self, card):
         self.cards.append(card)
         self.value += Deck.values[card.rank]
+        if card.rank == 'Ace':
+            self.aces += 1  # add to self.aces
 
     def adjust_for_aces(self):
         if self.value > 21 and self.aces:
