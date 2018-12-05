@@ -36,5 +36,5 @@ if __name__ == '__main__':
         for message in messages:
             tb.main_task(message)
 
-    duration = timeit.timeit(test_func, number=10000)
+    duration = timeit.timeit(test_func, number=1000)
     print(duration)
