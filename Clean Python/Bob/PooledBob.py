@@ -23,5 +23,5 @@ if __name__ == '__main__':
     def test_func():
         p.map(pooled_bob.asK_bob, messages)
 
-    duration = timeit.timeit(test_func, number=1000000)
+    duration = timeit.timeit(test_func, number=1000)
     print(duration)
