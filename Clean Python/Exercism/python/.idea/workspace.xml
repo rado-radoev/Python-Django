@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a6492d0-3652-497e-a94b-d2fde7136ffa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/lastfailed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/bank_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/bank_account.py" afterDir="false" />
     </list>
@@ -18,11 +19,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bank-account/bank_account.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="488">
-                  <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+                <state relative-caret-position="420">
+                  <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
                   <folding>
                     <element signature="e#0#16#0" expanded="true" />
                   </folding>
@@ -30,10 +31,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bank-account/bank_account_test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2554">
+                <state relative-caret-position="-1174">
                   <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
@@ -132,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions">
+  <component name="RunManager" selected="Python tests.pytest in bank_account_test.py">
     <configuration name="pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,8 +211,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" />
         <item itemvalue="Python tests.pytest in bank_account_test.py" />
+        <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" />
         <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_cannot_deposit_negative" />
         <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_negative" />
         <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_more_than_deposited" />
@@ -232,9 +233,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_reopened_account_does_not_retain_balance - 2018.12.07 at 23h 34m 55s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_reopened_account_does_not_retain_balance" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_cannot_withdraw_more_than_deposited - 2018.12.07 at 23h 35m 02s.xml">
       <configuration name="pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_more_than_deposited" configurationId="tests" />
     </history-entry>
@@ -262,6 +260,9 @@
     <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_can_handle_concurrent_transactions - 2018.12.07 at 23h 58m 38s.xml">
       <configuration name="pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_bank_account_test_py - 2018.12.08 at 00h 00m 47s.xml">
+      <configuration name="pytest in bank_account_test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -277,7 +278,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -285,6 +286,42 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bank-account/README.md">
@@ -380,20 +417,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank-account/bank_account.py">
+    <entry file="file://$PROJECT_DIR$/bank-account/bank_account_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1174">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank-account/bank_account_test.py">
+    <entry file="file://$PROJECT_DIR$/bank-account/bank_account.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2554">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="420">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
