@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a6492d0-3652-497e-a94b-d2fde7136ffa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/bank_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/bank_account.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,22 +20,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bank-account/bank_account.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="360">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank-account/bank_account_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="-180">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <element signature="e#1#11#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +59,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bank-account/bank_account.py" />
+        <option value="$PROJECT_DIR$/bank_account/bank_account.py" />
+        <option value="$PROJECT_DIR$/bank_account/bank_account_test.py" />
         <option value="$PROJECT_DIR$/bank-account/bank_account_test.py" />
+        <option value="$PROJECT_DIR$/bank-account/bank_account.py" />
       </list>
     </option>
   </component>
@@ -85,6 +91,10 @@
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="bank-account" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bob" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -92,7 +102,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bob" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -107,8 +117,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in bank_account_test.py">
+    <configuration name="pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,13 +129,77 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error&quot;" />
+      <option name="_new_target" value="&quot;bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for bank_account_test.BankAccountTest.test_cannot_deposit_negative" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank-account" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bank_account_test.BankAccountTest.test_cannot_deposit_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_more_than_deposited" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank-account" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bank_account_test.BankAccountTest.test_cannot_withdraw_more_than_deposited&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_negative" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank-account" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bank_account_test.BankAccountTest.test_cannot_withdraw_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in bank_account_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bank-account" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/bank-account/bank_account_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" />
+        <item itemvalue="Python tests.pytest in bank_account_test.py" />
+        <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" />
+        <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_cannot_deposit_negative" />
+        <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_negative" />
+        <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_more_than_deposited" />
       </list>
     </recent_temporary>
   </component>
@@ -142,17 +216,49 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 27m 11s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 28m 12s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 29m 02s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 30m 12s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 31m 22s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 32m 06s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_deposit_into_closed_account - 2018.12.07 at 23h 32m 16s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_deposit_into_closed_account" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_withdraw_from_closed_account - 2018.12.07 at 23h 32m 21s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_withdraw_from_closed_account" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_close_already_closed_account - 2018.12.07 at 23h 32m 25s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_close_already_closed_account" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_close_already_closed_account - 2018.12.07 at 23h 33m 35s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_close_already_closed_account" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.18797815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" visible="true" weight="0.18797815" />
+      <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.18797815" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -165,6 +271,17 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bank-account/bank_account_test.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bank-account/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -174,20 +291,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank-account/bank_account.py">
+    <entry file="file://$PROJECT_DIR$/isogram/isogram_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state>
+          <caret selection-end-column="6" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isogram/isogram.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hamming/hamming_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="6" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hamming/hamming.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bob/ThreadedBob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="61" selection-start-line="61" selection-end-line="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bank-account/bank_account_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="-180">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
-            <element signature="e#1#11#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-account/bank_account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
