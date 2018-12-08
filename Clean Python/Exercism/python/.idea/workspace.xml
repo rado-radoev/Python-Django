@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a6492d0-3652-497e-a94b-d2fde7136ffa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/lastfailed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-account/bank_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank-account/bank_account.py" afterDir="false" />
     </list>
@@ -19,39 +15,58 @@
     <favorites_list name="python" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bank-account/bank_account.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bank-account/bank_account_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bank-account/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bank-account/bank_account.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="488">
+                  <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#0#16#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bank-account/bank_account_test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2554">
+                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bank-account/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SECOND">
+                  <first_editor />
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../../Bob/ThreadedBob.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#0#16#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -117,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in bank_account_test.py">
+  <component name="RunManager" selected="Python tests.pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions">
     <configuration name="pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,8 +210,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in bank_account_test.py" />
         <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" />
+        <item itemvalue="Python tests.pytest in bank_account_test.py" />
         <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_cannot_deposit_negative" />
         <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_negative" />
         <item itemvalue="Python tests.pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_more_than_deposited" />
@@ -217,42 +232,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 27m 11s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_reopened_account_does_not_retain_balance - 2018.12.07 at 23h 34m 55s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_reopened_account_does_not_retain_balance" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 28m 12s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_cannot_withdraw_more_than_deposited - 2018.12.07 at 23h 35m 02s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_more_than_deposited" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 29m 02s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_cannot_withdraw_more_than_deposited - 2018.12.07 at 23h 35m 33s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_more_than_deposited" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 30m 12s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_cannot_withdraw_negative - 2018.12.07 at 23h 35m 37s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_cannot_withdraw_negative" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 31m 22s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_cannot_deposit_negative - 2018.12.07 at 23h 35m 44s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_cannot_deposit_negative" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_checking_balance_of_closed_account_throws_error - 2018.12.07 at 23h 32m 06s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_checking_balance_of_closed_account_throws_error" configurationId="tests" />
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_can_handle_concurrent_transactions - 2018.12.07 at 23h 35m 48s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_deposit_into_closed_account - 2018.12.07 at 23h 32m 16s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_deposit_into_closed_account" configurationId="tests" />
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_can_handle_concurrent_transactions - 2018.12.07 at 23h 36m 02s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_withdraw_from_closed_account - 2018.12.07 at 23h 32m 21s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_withdraw_from_closed_account" configurationId="tests" />
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_can_handle_concurrent_transactions - 2018.12.07 at 23h 36m 08s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_close_already_closed_account - 2018.12.07 at 23h 32m 25s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_close_already_closed_account" configurationId="tests" />
+    <history-entry file="pytest_in_bank_account_test_py - 2018.12.07 at 23h 36m 16s.xml">
+      <configuration name="pytest in bank_account_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_close_already_closed_account - 2018.12.07 at 23h 33m 35s.xml">
-      <configuration name="pytest for bank_account_test.BankAccountTest.test_close_already_closed_account" configurationId="tests" />
+    <history-entry file="pytest_for_bank_account_test_BankAccountTest_test_can_handle_concurrent_transactions - 2018.12.07 at 23h 58m 38s.xml">
+      <configuration name="pytest for bank_account_test.BankAccountTest.test_can_handle_concurrent_transactions" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.18797815" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" side_tool="true" visible="true" weight="0.14590164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.18797815" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,17 +285,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bank-account/bank_account_test.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bank-account/README.md">
@@ -317,15 +321,6 @@
     <entry file="file://$PROJECT_DIR$/hamming/hamming.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Bob/ThreadedBob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/contextlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -340,20 +335,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank-account/bank_account_test.py">
+    <entry file="file://$PROJECT_DIR$/../../Bob/MultiProcessedBob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state>
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bob/ManagerBob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bob/PooledBob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bob/QueuedBob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Bob/ThreadedBob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bank-account/bank_account.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="488">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank-account/bank_account_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2554">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
