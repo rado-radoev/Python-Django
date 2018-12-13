@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../../../Bob/.idea/Bob.iml" filepath="$PROJECT_DIR$/../../../Bob/.idea/Bob.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bank-account.iml" filepath="$PROJECT_DIR$/.idea/bank-account.iml" />
       <module fileurl="file://$PROJECT_DIR$/../circular-buffer/.idea/circular-buffer.iml" filepath="$PROJECT_DIR$/../circular-buffer/.idea/circular-buffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../robot-simulator/.idea/robot-simulator.iml" filepath="$PROJECT_DIR$/../robot-simulator/.idea/robot-simulator.iml" />
     </modules>
   </component>
 </project>
