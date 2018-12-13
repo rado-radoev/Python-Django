@@ -33,3 +33,12 @@ class Robot(object):
     def reset_position(self):
         """This will turn the robot back to facing NORTH (0)"""
         self.bearing = NORTH
+
+
+if __name__ == '__main__':
+    dirA = [EAST, SOUTH, WEST, NORTH]
+    dirB = [SOUTH, WEST, NORTH, EAST]
+    for x in range(len(dirA)):
+        robot = Robot(dirA[x], 0, 0)
+        robot.turn_right()
+        print(f"robot facing: {robot.bearing} should be facing: {dirB[x]}")

@@ -29,8 +29,8 @@
           <file leaf-file-name="robot_simulator.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../robot-simulator/robot_simulator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="341">
-                  <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+                <state relative-caret-position="281">
+                  <caret line="43" column="74" lean-forward="false" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
                   <folding />
                 </state>
               </provider>
@@ -43,8 +43,8 @@
           <file leaf-file-name="robot_simulator_test.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../robot-simulator/robot_simulator_test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="23" column="38" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="52" />
+                <state relative-caret-position="115">
+                  <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -139,20 +139,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_rotate_turn_right">
-    <configuration name="Unittests for circular_buffer_test.CircularBufferTest.test_overwrite_non_full_buffer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.robot_simulator">
+    <configuration name="robot_simulator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../circular-buffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../robot-simulator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="circular-buffer" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;circular_buffer_test.CircularBufferTest.test_overwrite_non_full_buffer&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <module name="robot-simulator" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../robot-simulator/robot_simulator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="Unittests for robot_simulator_test.RobotSimulatorTest.test_robot_created_with_negative_position_values" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,19 +215,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for circular_buffer_test.CircularBufferTest.test_overwrite_non_full_buffer" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in circular_buffer_test.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_robot_created_with_position_and_direction" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_robot_created_with_negative_position_values" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_rotate_turn_right" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in circular_buffer_test.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_robot_created_with_position_and_direction" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_robot_created_with_negative_position_values" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_rotate_turn_right" />
+      <item index="4" class="java.lang.String" itemvalue="Python.robot_simulator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_rotate_turn_right" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_robot_created_with_negative_position_values" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_robot_created_with_position_and_direction" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in circular_buffer_test.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for circular_buffer_test.CircularBufferTest.test_overwrite_non_full_buffer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.robot_simulator" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_rotate_turn_right" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_robot_created_with_negative_position_values" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for robot_simulator_test.RobotSimulatorTest.test_robot_created_with_position_and_direction" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in circular_buffer_test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -250,9 +254,6 @@
     <history-entry file="Unittests_for_circular_buffer_test_CircularBufferTest_test_overwrite_non_full_buffer - 2018.12.12 at 23h 42m 59s.xml">
       <configuration name="Unittests for circular_buffer_test.CircularBufferTest.test_overwrite_non_full_buffer" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_circular_buffer_test_CircularBufferTest_test_overwrite_replaces_oldest_remaining_item - 2018.12.12 at 23h 40m 55s.xml">
-      <configuration name="Unittests for circular_buffer_test.CircularBufferTest.test_overwrite_replaces_oldest_remaining_item" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_robot_simulator_test_RobotSimulatorTest_test_robot_created_with_negative_position_values - 2018.12.13 at 00h 41m 53s.xml">
       <configuration name="Unittests for robot_simulator_test.RobotSimulatorTest.test_robot_created_with_negative_position_values" configurationId="tests" />
     </history-entry>
@@ -268,8 +269,11 @@
     <history-entry file="Unittests_for_robot_simulator_test_RobotSimulatorTest_test_rotate_turn_right - 2018.12.13 at 00h 43m 08s.xml">
       <configuration name="Unittests for robot_simulator_test.RobotSimulatorTest.test_rotate_turn_right" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_circular_buffer_test_py - 2018.12.12 at 23h 41m 11s.xml">
-      <configuration name="Unittests in circular_buffer_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_robot_simulator_test_RobotSimulatorTest_test_rotate_turn_right - 2018.12.13 at 00h 45m 59s.xml">
+      <configuration name="Unittests for robot_simulator_test.RobotSimulatorTest.test_rotate_turn_right" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_robot_simulator_test_RobotSimulatorTest_test_rotate_turn_right - 2018.12.13 at 00h 46m 51s.xml">
+      <configuration name="Unittests for robot_simulator_test.RobotSimulatorTest.test_rotate_turn_right" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_circular_buffer_test_py - 2018.12.12 at 23h 43m 06s.xml">
       <configuration name="Unittests in circular_buffer_test.py" configurationId="tests" />
@@ -539,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../robot-simulator/robot_simulator_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="52" />
+        <state relative-caret-position="115">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -549,8 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../robot-simulator/robot_simulator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="281">
+          <caret line="43" column="74" lean-forward="false" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
           <folding />
         </state>
       </provider>
